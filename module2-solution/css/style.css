@@ -1,0 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
+.page_heading{
+    font-weight: bold;
+    text-align: center;
+}
