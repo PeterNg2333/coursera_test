@@ -23,6 +23,7 @@
     padding: 0.25%;
     font-size: 1.25em;
     text-align:center;
+    overflow: auto;
 }
 
 .s1 > h2{
@@ -46,15 +47,42 @@
 }
 
 @media (min-width: 992px) {
-    
+    .col-lg-4{
+        float: left;
+    }
+
+    .col-lg-4{
+        width: 31.33%;
+        margin: 1%;
+    }
 }
 
-@media (max-width: 991px) and (min-width: 768){
-    
+@media (min-width: 768) and (max-width: 991px){
+    .col-md-6, .col-md-12{
+        float: left;
+    }
+
+    .col-md-6{
+        width: 46%;
+        margin: 2%;
+    }
+
+    .col-md-12{
+        width: 96%;
+        margin: 2%;
+    }
 }
 
 @media (max_width: 767px) {
-    
+    .col-md-12{
+        float: left;
+    }
+
+    .col-md-12{
+        float: left;
+        width: 96%;
+        margin: 2%;
+    }
 }
 
 
