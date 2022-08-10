@@ -57,7 +57,7 @@
     }
 }
 
-@media (min-width: 768) and (max-width: 991px){
+@media (min-width: 768px) and (max-width: 991px){
     .col-md-6, .col-md-12{
         float: left;
     }
@@ -73,14 +73,15 @@
     }
 }
 
-@media (max_width: 767px) {
-    .col-md-12{
+@media (max-width: 767px) {
+
+    .col-sm-12{
         float: left;
     }
 
-    .col-md-12{
+    .col-sm-12{
         float: left;
-        width: 96%;
+        width: 95%;
         margin: 2%;
     }
 }
