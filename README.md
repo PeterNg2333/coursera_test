@@ -5,3 +5,5 @@ This is a coursera test repository
 https://peterng2333.github.io/coursera_test/module2-solution/
 </br>
 https://peterng2333.github.io/coursera_test/module3-solution/
+</br>
+https://peterng2333.github.io/coursera_test/module4-solution/
